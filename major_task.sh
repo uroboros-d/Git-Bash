@@ -2,7 +2,7 @@
 
 pwd					#1 Посмотреть где я
 mkdir homework	                        #2 Создать папку
-cd homework								            #3 Зайти в папку
+cd homework								       #3 Зайти в папку
 mkdir dir_1 dir_2 dir_3					      #4 Создать 3 папки
 cd dir_1								              #5 Зайти в любоую папку
 touch 1.txt 2.txt 3.txt 4.json 5.json	#6 Создать 5 файлов (3 txt, 2 json)
