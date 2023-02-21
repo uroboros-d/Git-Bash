@@ -7,7 +7,7 @@ mkdir dir_1 dir_2 dir_3		        #4 Создать 3 папки
 cd dir_1				#5 Зайти в любоую папку
 touch 1.txt 2.txt 3.txt 4.json 5.json	#6 Создать 5 файлов (3 txt, 2 json)
 mkdir folder_1 folder_2 folder_3        #7 Создать 3 папки
-ls -la			  #8 Вывести список содержимого папки
+ls -la			      #8 Вывести список содержимого папки
 #vim 4.json								            #9+ Открыть любой txt файл
 #insert text Esc						          #10+ написать туда что-нибудь, любой текст
 #Shift: wq								            #11+ сохранить и выйти
