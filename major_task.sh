@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pwd					#1 Посмотреть где я
-mkdir homework	        #2 Создать папку
+mkdir homework	                  #2 Создать папку
 cd homework								            #3 Зайти в папку
 mkdir dir_1 dir_2 dir_3					      #4 Создать 3 папки
 cd dir_1								              #5 Зайти в любоую папку
