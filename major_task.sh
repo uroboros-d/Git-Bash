@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#HOMEWORK ONE: Linux terminal (GitBash) commands
+
 pwd					#1 Посмотреть где я
 mkdir homework	                        #2 Создать папку
 cd homework				#3 Зайти в папку
