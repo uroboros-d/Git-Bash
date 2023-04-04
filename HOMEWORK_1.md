@@ -1,4 +1,5 @@
 HOMEWORK_1
+```javascript
 
 pwd										#1 print working directory
 mkdir homework							#2 create directory
@@ -23,3 +24,4 @@ date +"Today is: %D %T"					#20 print date and time
 curl http://162.55.220.72:5005/terminal-hw-request #21 send http request // if no data passed, GET request is executed by default
 										# 404 NOT FOUND requested URL was not found on the server
 ../myscript.sh							#22 write a script that executes points 3, 4, 5, 6, 7, 8, 13
+```
