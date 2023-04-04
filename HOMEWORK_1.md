@@ -1,5 +1,5 @@
 HOMEWORK_1
-```javascript
+```java
 
 pwd					#1 print working directory
 mkdir homework				#2 create directory
