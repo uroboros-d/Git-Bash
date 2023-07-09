@@ -2,7 +2,7 @@ HOMEWORK_1
 ```java
 
 pwd					#1 print working directory
-mkdir homework				#2 create directory
+mkdir homework				#2 create a directory
 cd homework				#3 enter the directory
 mkdir dir_1 dir_2 dir_3			#4 create 3 directories
 cd dir_1				#5 enter any directory
@@ -24,5 +24,5 @@ date +"Today is: %D %T"			#20 print date and time
 					#21 send http request // if no data passed, GET request is executed by default
 					# 404 NOT FOUND requested URL was not found on the server
 curl http://162.55.220.72:5005/terminal-hw-request 	
-../myscript.sh				#22 write a script that executes points 3, 4, 5, 6, 7, 8, 13
+../myscript.sh				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13
 ```
