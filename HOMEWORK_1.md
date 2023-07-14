@@ -4,7 +4,7 @@ HOMEWORK_1
 pwd					#1 print working directory
 mkdir homework				#2 create a directory
 cd homework				#3 enter the directory
-mkdir dir_1 dir_2 dir_3			#4 create 3 directories	
+mkdir dir_1 dir_2 dir_3			#4 create 3 directories			mkdir dir_{1..3}
 cd dir_1				#5 enter a directory
 touch 1.txt 2.txt 3.txt 4.json 5.json	#6 create 5 files (3 txt, 2 json)	touch {1,2,3}.txt {4,5}.json
 mkdir folder_1 folder_2 folder_3	#7 create 3 directories			mkdir ./{folder_1,folder_2,folder_3}
