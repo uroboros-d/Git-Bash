@@ -18,7 +18,7 @@ cp dir_2/*.json dir_3			#14 copy any 2 files you created to any other directory
 find .. -name "tail1*"			#15 find a file by name
 tail -f ../tail1.txt	Ctrl+C		#16 view content in the real time
 head -2 ../tail1.txt			#17 print first few lines (2) from a text file
-tail -3 ../tail1.txt			#18 print last few lines (3) from a text file
+tail -3 ../tail1.txt			#18 print last few lines (3) from a text file		tail -3 ../tail1.txt | less
 less ../tail1.txt			#19 view a content of a long file (command less)
 date +"Today is: %D %T"			#20 print today's date and time
 					#21 send the http request // if no data passed, GET request is executed by default
