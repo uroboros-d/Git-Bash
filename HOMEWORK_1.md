@@ -17,11 +17,11 @@ cd ..					#12 go to the directory one level up
 mv ~/Documents/Bash/dir1/{4.json,5.json} ~/Documents/Bash/dir2		
 cp ./dir2/{4,5}.json ./dir3		#14 copy any 2 files you created to any other directory
 find .. -type f -iname "4*.json"	#15 find a file by name
-tail -f ../tail1.txt	Ctrl+C		#16 view content in the real time
-head -2 ../tail1.txt			#17 print first few lines (2) from a text file
-tail -3 ../tail1.txt			#18 print last few lines (3) from a text file	tail -3 ../tail1.txt | less
-less ../tail1.txt			#19 view a content of a long file (command less)
-date +"Today is: %D %T"			#20 print today's date and time
+grep -r "is" ./dir1 | less		#16 view content in the real time
+head -2 ./dir1/1.txt | less		#17 print first few lines (2) from a text file
+tail -3 ./dir1/1.txt | less		#18 print last few lines (3) from a text file	
+less ./dir1/1.txt  	 		#19 view a content of a long file (command less) g,G,/,q
+date -d "tomorrow"+"Tomorrow is: %D %T"	#20 print date and time
 					#21 send the http request // if no data passed, GET request is executed by default
 curl http://162.55.220.72:5005/terminal-hw-request
  					# 404 NOT FOUND requested URL was not found on the server
