@@ -21,7 +21,7 @@ grep -r "is" ./dir1 | less		#16 view content in the real time
 head -2 ./dir1/1.txt | less		#17 print first few lines (2) from a text file
 tail -3 ./dir1/1.txt | less		#18 print last few lines (3) from a text file	
 less ./dir1/1.txt  	 		#19 view a content of a long file (command less) g,G,/,q
-date -d "tomorrow"+"Tomorrow is: %D %T"	#20 print date and time
+date -d "tomorrow" +"Tomorrow is: %D %T"#20 print date and time
 					#21 send the http request // if no data passed, GET request is executed by default
 curl http://162.55.220.72:5005/terminal-hw-request
  					# 404 NOT FOUND requested URL was not found on the server
