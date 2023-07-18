@@ -25,5 +25,16 @@ date -d "tomorrow" +"Tomorrow is: %D %T"#20 print date and time
 					#21 send the http request // if no data passed, GET request is executed by default
 curl http://162.55.220.72:5005/terminal-hw-request
  					# 404 NOT FOUND requested URL was not found on the server
-../myscript.sh				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13
+../hwscript.sh				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13
+
+#!/bin/bash
+cd ~/Documents/Bash                     #3 enter the directory
+mkdir Sdir{1..3}                        #4 create 3 directories
+cd Sdir1                                #5 enter a directory
+touch S{1,2,3}.txt S{4,5}.json          #6 create 5 files (3 txt, 2 json)mkdir ./{folder1,folder2,folder3}        #7 create 3 directories
+ls -la | less                           #8 print the content of a directory
+                                        #13 move any 2 files you created to any other directory
+mv ~/Documents/Bash/Sdir1/S{4.json,5.json} ~/Documents/Bash/dir2
+
+
 ```
