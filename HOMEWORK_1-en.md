@@ -23,7 +23,7 @@ HOMEWORK_1
 | `less ./dir1/1.txt  `|	 		#19 view a content of a long file (command less) g,G,/,q |
 | `date -d "tomorrow" +"Tomorrow is: %D %T"`|					#20 print date and time |
 | `curl http://162.55.220.72:5005/terminal-hw-request`|	#21 send the http request |
-| `../hwscript.sh`|				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13 |
+| `script.sh`|				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13 |
 | `#!/bin/bash`| |
 | `cd ~/Documents/Bash `|                    #3 enter the directory |
 | `mkdir Sdir{1..3} `|                       #4 create 3 directories |
