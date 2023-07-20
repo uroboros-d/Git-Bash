@@ -7,8 +7,8 @@ HOMEWORK_1
 | `cd ~/Documents/Bash`|			#3 Зайти в папку |
 | `mkdir dir{1..3}`|				#4 Создать 3 папки	 |		
 | `cd dir1`|					#5 Зайти в любоую папку |
-| `touch {1,2,3}.txt {4,5}.json`|		#6 Создать 5 файлов (3 txt, 2 json) |	
-| `mkdir ./{folder1,folder2,folder3}`|	#7 Создать 3 папки	 |		
+| `touch {1..3}.txt {4,5}.json`| #6 Создать 5 файлов (3 txt, 2 json) |	
+| `mkdir ./{folder{1,2,3}}`|	#7 Создать 3 папки	 |				
 | `ls -la \| less`|				#8 Вывести список содержимого папки |
 | `vim ~/Documents/Bash/poem.txt`|		#9+ Открыть любой txt файл |
 | `insert text Esc`|				#10+ написать туда что-нибудь, любой текст |
