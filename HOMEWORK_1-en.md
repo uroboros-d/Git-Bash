@@ -9,7 +9,7 @@ HOMEWORK_1
 | `cd dir1`|					#5 enter a directory |
 | `touch {1..3}.txt {4,5}.json`|		#6 create 5 files (3 txt, 2 json) |	
 | `mkdir ./{folder{1,2,3}}`|	#7 create 3 directories	 |		
-| `ls -la \| less`|				#8 print the content of the directory |
+| `ls -laR \| less`|				#8 print the content of the directory |
 | `vim ~/Documents/Bash/poem.txt`|		#9+ open any txt file |
 | `insert text Esc`|				#10+ fill the file with any text |
 | `Shift: wq`|				#11+ save and exit |
