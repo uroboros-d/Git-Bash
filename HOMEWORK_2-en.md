@@ -47,11 +47,11 @@ HOMEWORK_1
 | `tail -n 4 ../poem.txt \| less`	 |		#33 print last 4 lines of any text file |
 | `head -n 4 ../poem.txt \| less`	 |		#34 print first 4 lines of any text file |
 | `mkdir dir \| echo "Hello" > text.txt`	 |	#35 one line command: create a directory and a file with any content |
-						#36 one line command: move files with 'sec' to another directory |
+						|``|#36 one line command: move files with 'sec' to another directory |
 | `mkdir sec_mv \| grep -rl sec \| xargs mv -t ./sec_mv` |	
-						#37 one line command: copy files with 'sec' to another directory |
+						|``|#37 one line command: copy files with 'sec' to another directory |
 | `mkdir sec_cp \| grep -rl sec \| xargs cp -t ./sec_cp` |
-						#38 one line command: find lines with 'sec' in the files, copy and past these lines into a new file |
+						|``|#38 one line command: find lines with 'sec' in the files, copy and past these lines into a new file |
 | `grep -rh sec > list.txt `| |
 | `grep -r sec \| awk -F: '{print $2}\n' \| xargs > list.txt`	 | |
 | `grep -rl sec \| xargs rm`		 |		#39 one line command: delete files with 'sec' |
