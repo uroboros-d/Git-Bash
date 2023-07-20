@@ -14,8 +14,8 @@ HOMEWORK_1
 | `insert text Esc`|				#10+ fill the file with any text |
 | `Shift: wq`|				#11+ save and exit |
 | `cd ..`|					#12 go to the directory one level up |
-| `mv ~/Documents/Bash/dir1/{4.json,5.json} ~/Documents/Bash/dir2`|	#13 move any 2 files you created to any other directory |
-| `cp ./dir2/{4,5}.json ./dir3`|		#14 copy any 2 files you created to any other directory |
+| `mv ~/Documents/Bash/dir1/{4.json,5.json} ~/Documents/Bash/dir2`|	#13 move 2 any files you created to any other directory |
+| `cp ./dir2/{4,5}.json ./dir3`|		#14 copy 2 any files you created to any other directory |
 | `find .. -type f -iname "4*.json"`|	#15 find a file by name |
 | `grep -r "is" ./dir1 \| less`|		#16 view content in the real time |
 | `head -2 ./dir1/1.txt \| less	`|	#17 print first few lines (2) from a text file |
