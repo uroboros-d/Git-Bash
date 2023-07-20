@@ -14,8 +14,7 @@ HOMEWORK_1
 | `insert text Esc`|				#10+ fill the file with any text |
 | `Shift: wq`|				#11+ save and exit |
 | `cd ..`|					#12 go to the directory one level up |
-| ``|					#13 move any 2 files you created to any other directory |
-| `mv ~/Documents/Bash/dir1/{4.json,5.json} ~/Documents/Bash/dir2`| |		
+| `mv ~/Documents/Bash/dir1/{4.json,5.json} ~/Documents/Bash/dir2`|	#13 move any 2 files you created to any other directory |
 | `cp ./dir2/{4,5}.json ./dir3`|		#14 copy any 2 files you created to any other directory |
 | `find .. -type f -iname "4*.json"`|	#15 find a file by name |
 | `grep -r "is" ./dir1 \| less`|		#16 view content in the real time |
@@ -27,7 +26,6 @@ HOMEWORK_1
 | ``|					#21 send the http request // if no data passed, GET request is executed by default |
 | `curl http://162.55.220.72:5005/terminal-hw-request`| |
 | `../hwscript.sh`|				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13 |
-| ``| |
 | `#!/bin/bash`| |
 | `cd ~/Documents/Bash `|                    #3 enter the directory |
 | `mkdir Sdir{1..3} `|                       #4 create 3 directories |
