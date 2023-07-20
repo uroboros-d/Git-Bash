@@ -3,19 +3,19 @@ HOMEWORK_1
 | Command | Description |
 | --- | --- |
 | `mkdir /c/Users/user/Documents/Bash/dir_1` |	#1 create the directory dir_1 |
-| `cd ~/Documents/Bash/dir_1 |			#2 enter the directory |
-| `mkdir ./inner_dir_1	|			#3 create the directory inner_dir_1 |
-| `pwd						#4 where am I
-| `touch tf_1.txt					#5 create the file tf_1.txt 
-| `cat > tf_2.txt					#6 create the file tf_2.txt using the cat command with the lines:
-| `-the first 1
-| `-the second 2
-| `-the third 3
-| `cd ./inner_dir_1				#7 enter the directory inner_dir_1
-| `cat > tf_3.txt					#8 create the file tf_3.txt with any lines using the cat command 
-| `-line 1
-| `-line 2
-| ` cat >> tf_3.txt					#9 add the line "the second 2" to the file tf_3.txt using the cat command 
+| `cd ~/Documents/Bash/dir_1` |			#2 enter the directory |
+| `mkdir ./inner_dir_1`	|			#3 create the directory inner_dir_1 |
+| `pwd`	|						#4 where am I |
+| `touch tf_1.txt`	|					#5 create the file tf_1.txt | 
+| `cat > tf_2.txt`	|					#6 create the file tf_2.txt using the cat command with the lines: |
+| `-the first 1`	| |
+| `-the second 2`	| |
+| `-the third 3`	| |
+| `cd ./inner_dir_1`	|				#7 enter the directory inner_dir_1 |
+| `cat > tf_3.txt`	|					#8 create the file tf_3.txt with any lines using the cat command  |
+| `-line 1`	| |
+| `-line 2`	| |
+| ` cat >> tf_3.txt`	|					#9 add the line "the second 2" to the file tf_3.txt using the cat command 
 | `the second 2
 | `cat >> tf_3.txt					#10 add the line "the sec 2" to the file tf_3.txt using the cat command 
 | `the sec 2
