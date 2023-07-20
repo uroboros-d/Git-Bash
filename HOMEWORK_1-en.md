@@ -26,7 +26,6 @@ HOMEWORK_1
 | `date -d "tomorrow" +"Tomorrow is: %D %T"`| |
 | ``|					#21 send the http request // if no data passed, GET request is executed by default |
 | `curl http://162.55.220.72:5005/terminal-hw-request`| |
-| ` `|					# 404 NOT FOUND requested URL was not found on the server |
 | `../hwscript.sh`|				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13 |
 | ``| |
 | `#!/bin/bash`| |
