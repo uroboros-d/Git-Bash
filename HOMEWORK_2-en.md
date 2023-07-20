@@ -1,7 +1,8 @@
 HOMEWORK_1
-```java
 
-mkdir /c/Users/user/Documents/Bash/dir_1	#1 create the directory dir_1
+| Command | Description |
+| --- | --- |
+| `mkdir /c/Users/user/Documents/Bash/dir_1` |	#1 create the directory dir_1 |
 cd ~/Documents/Bash/dir_1			#2 enter the directory
 mkdir ./inner_dir_1				#3 create the directory inner_dir_1
 pwd						#4 where am I
@@ -55,4 +56,4 @@ grep -rh sec > list.txt
 grep -r sec | awk -F: '{print $2}\n' | xargs > list.txt	
 grep -rl sec | xargs rm				#39 one line command: delete files with 'sec'
 echo 'Good job!'				#40 print the string 'Good job!'
-```
+
