@@ -18,9 +18,9 @@ HOMEWORK_1
 | `cp ./dir2/{4,5}.json ./dir3`|		#14 copy 2 any files you created to any other directory |
 | `find .. -type f -iname "4*.json"`|	#15 find a file by name |
 | `grep "is" ~/Documents/Bash/poem.txt \| less`|		#16 view content in the real time |
-| `head -2 ./dir1/1.txt \| less	`|	#17 print first few lines (2) from a text file |
-| `tail -3 ./dir1/1.txt \| less	`|	#18 print last few lines (3) from a text file	 |
-| `less ./dir1/1.txt  `|	 		#19 view a content of a long file (command less) g,G,/,q |
+| `head -2 ~/Documents/Bash/poem.txt \| less	`|	#17 print first few lines (2) from a text file |
+| `tail -3 ~/Documents/Bash/poem.txt \| less	`|	#18 print last few lines (3) from a text file	 |
+| `less ~/Documents/Bash/poem.txt  `|	 		#19 view a content of a long file (command less) g,G,/,q |
 | `date -d "tomorrow" +"Tomorrow is: %D %T"`|					#20 print date and time |
 | `curl http://162.55.220.72:5005/terminal-hw-request`|	#21 send the http request |
 | `script.sh`|				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13 |
