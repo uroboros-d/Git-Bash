@@ -15,18 +15,18 @@ HOMEWORK_1
 | `cat > tf_3.txt`	|					#8 create the file tf_3.txt with any lines using the cat command  |
 | `-line 1`	| |
 | `-line 2`	| |
-| ` cat >> tf_3.txt`	|					#9 add the line "the second 2" to the file tf_3.txt using the cat command 
-| `the second 2
-| `cat >> tf_3.txt					#10 add the line "the sec 2" to the file tf_3.txt using the cat command 
-| `the sec 2
-| `cat >> ../tf_2.txt				#11 add the line "the sec 3" to the file tf_2.txt using the cat command 
-| `the sec 3
-| `cat >> tf_3.txt					#12 add the line "the SeCoNd 2" to the file tf_3.txt using the cat command 
-| `the SeCoNd 2
-| `cat >> ../tf_2.txt				#13 add the line "the seConD 2" to the file tf_2.txt using the cat command 
-| `the seConD 2
-| `printf '%s\n' 'line'{1..15} > tf_4.txt		#14 create the file tf_4.txt with 15 lines
-| `printf '%s\n' 'line'{1..13} > tF_5.txt		#15 create the file tF_5.txt with 13 lines
+| ` cat >> tf_3.txt`	|					#9 add the line "the second 2" to the file tf_3.txt using the cat command  |
+| `the second 2 | |
+| `cat >> tf_3.txt					#10 add the line "the sec 2" to the file tf_3.txt using the cat command  |
+| `the sec 2 | |
+| `cat >> ../tf_2.txt				#11 add the line "the sec 3" to the file tf_2.txt using the cat command  |
+| `the sec 3 | |
+| `cat >> tf_3.txt					#12 add the line "the SeCoNd 2" to the file tf_3.txt using the cat command  |
+| `the SeCoNd 2 | |
+| `cat >> ../tf_2.txt				#13 add the line "the seConD 2" to the file tf_2.txt using the cat command  |
+| `the seConD 2 | |
+| `printf '%s\n' 'line'{1..15} > tf_4.txt		#14 create the file tf_4.txt with 15 lines |
+| `printf '%s\n' 'line'{1..13} > tF_5.txt		#15 create the file tF_5.txt with 13 lines |
 | `ls -la | less					#16 print the content of the directory
 | `cd ..						#17 exit the directory inner_dir_1
 | `less ./inner_dir_1/tf_3.txt			#18 print the content of the file tf_3.txt to the terminal
