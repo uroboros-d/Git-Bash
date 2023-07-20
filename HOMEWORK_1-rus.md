@@ -10,7 +10,7 @@ HOMEWORK_1
 | `touch {1,2,3}.txt {4,5}.json`|		#6 Создать 5 файлов (3 txt, 2 json) |	
 | `mkdir ./{folder1,folder2,folder3}`|	#7 Создать 3 папки	 |		
 | `ls -la \| less`|				#8 Вывести список содержимого папки |
-| `vim ~/Documents/Bash/dir1/1.txt`|		#9+ Открыть любой txt файл |
+| `vim ~/Documents/Bash/poem.txt`|		#9+ Открыть любой txt файл |
 | `insert text Esc`|				#10+ написать туда что-нибудь, любой текст |
 | `Shift: wq`|				#11+ + сохранить и выйти |
 | `cd ..`|					#12 Выйти из папки на уровень выше |
