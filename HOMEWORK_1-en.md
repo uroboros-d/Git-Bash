@@ -22,7 +22,7 @@ HOMEWORK_1
 | `tail -3 ./dir1/1.txt \| less	`|	#18 print last few lines (3) from a text file	 |
 | `less ./dir1/1.txt  `|	 		#19 view a content of a long file (command less) g,G,/,q |
 | `date -d "tomorrow" +"Tomorrow is: %D %T"`|					#20 print date and time |
-| `curl http://162.55.220.72:5005/terminal-hw-request`|	#21 send the http request // if no data passed, GET request is executed by default |
+| `curl http://162.55.220.72:5005/terminal-hw-request`|	#21 send the http request |
 | `../hwscript.sh`|				#22 write the script which executes points 3, 4, 5, 6, 7, 8, 13 |
 | `#!/bin/bash`| |
 | `cd ~/Documents/Bash `|                    #3 enter the directory |
