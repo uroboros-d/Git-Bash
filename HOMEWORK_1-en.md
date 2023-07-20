@@ -10,7 +10,7 @@ HOMEWORK_1
 | `touch {1,2,3}.txt {4,5}.json`|		#6 create 5 files (3 txt, 2 json) |	
 | `mkdir ./{folder1,folder2,folder3}`|	#7 create 3 directories	 |		
 | `ls -la \| less`|				#8 print the content of the directory |
-| `vim ~/Documents/Bash/dir1/1.txt`|		#9+ open any txt file |
+| `vim ~/Documents/Bash/poem.txt`|		#9+ open any txt file |
 | `insert text Esc`|				#10+ fill the file with any text |
 | `Shift: wq`|				#11+ save and exit |
 | `cd ..`|					#12 go to the directory one level up |
