@@ -17,7 +17,7 @@ HOMEWORK_1
 | `mv ~/Documents/Bash/dir1/{4.json,5.json} ~/Documents/Bash/dir2`|	#13 move 2 any files you created to any other directory |
 | `cp ./dir2/{4,5}.json ./dir3`|		#14 copy 2 any files you created to any other directory |
 | `find .. -type f -iname "4*.json"`|	#15 find a file by name |
-| `grep -r "is" ./dir1 \| less`|		#16 view content in the real time |
+| `grep "is" ~/Documents/Bash/poem.txt \| less`|		#16 view content in the real time |
 | `head -2 ./dir1/1.txt \| less	`|	#17 print first few lines (2) from a text file |
 | `tail -3 ./dir1/1.txt \| less	`|	#18 print last few lines (3) from a text file	 |
 | `less ./dir1/1.txt  `|	 		#19 view a content of a long file (command less) g,G,/,q |
