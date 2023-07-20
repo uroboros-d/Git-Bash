@@ -7,7 +7,7 @@ HOMEWORK_1
 | `cd ~/Documents/Bash`|			#3 enter the directory |
 | `mkdir dir{1..3}`|				#4 create 3 directories	 |		
 | `cd dir1`|					#5 enter a directory |
-| `touch {1,2,3}.txt {4,5}.json`|		#6 create 5 files (3 txt, 2 json) |	
+| `touch {1..3}.txt {4,5}.json`|		#6 create 5 files (3 txt, 2 json) |	
 | `mkdir ./{folder{1,2,3}}`|	#7 create 3 directories	 |		
 | `ls -la \| less`|				#8 print the content of the directory |
 | `vim ~/Documents/Bash/poem.txt`|		#9+ open any txt file |
