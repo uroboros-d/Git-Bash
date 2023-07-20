@@ -43,7 +43,7 @@ HOMEWORK_1
 | `grep -r second ./inner_dir_1`	 |		#29 find lines with 'second' in files in directories below the level |
 | `grep -lr "second" .` |				#30 find the list of files with 'second' in the current directory |
 | `grep -rv second .` |				#31 find lines in files that do not contain 'second' |
-| `grep -lrv second.` |				#32 find the list of files that do not contain 'second' |
+| `grep -lrv second .` |				#32 find the list of files that do not contain 'second' |
 | `tail -n 4 ../poem.txt \| less`	 |		#33 print last 4 lines of any text file |
 | `head -n 4 ../poem.txt \| less`	 |		#34 print first 4 lines of any text file |
 | `mkdir dir \| echo "Hello" > text.txt`	 |	#35 one line command: create a directory and a file with any content |
