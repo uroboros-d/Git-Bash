@@ -32,6 +32,7 @@ HOMEWORK_2
 | `less ./inner_dir_1/tf_3.txt` |			#18 print the content of the file tf_3.txt to the terminal |
 | `find ~ -type f -name "tf_4.txt"` |			#19 find the file tf_4.txt |
 | `cat /dev/null > ./inner_dir_1/tf_4.txt` |		#20 clear the content of tf_4.txt |
+| `> ./inner_dir_1/tf_4.txt` ||
 | `find . -type f -name "*tf*"`	 |		#21 find files with 'tf' in their names |
 | `find . -type f -iname "*tf*"`	 |		#22 find files with 'tf' in their names in any case |
 | `grep -r "sec" .` |					#23 find lines with 'sec' in files in the current directory |
