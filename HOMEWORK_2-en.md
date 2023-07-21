@@ -46,7 +46,7 @@ HOMEWORK_2
 | `grep -lrv second .` |				#32 find the list of files that do not contain 'second' |
 | `tail -n 4 ../poem.txt \| less`	 |		#33 print last 4 lines of any text file |
 | `head -n 4 ../poem.txt \| less`	 |		#34 print first 4 lines of any text file |
-| `mkdir dir \| echo "Hello" > text.txt`	 |	#35 one line command: create a directory and a file with any content |
+| `mkdir dir ; echo "Hello" > dir/text.txt`	 |	#35 one line command: create a directory and a file with any content |
 | `mkdir sec_mv \| grep -rl sec \| xargs mv -t ./sec_mv` |	#36 one line command: move files with 'sec' to another directory |
 | `mkdir sec_cp \| grep -rl sec \| xargs cp -t ./sec_cp` |	#37 one line command: copy files with 'sec' to another directory |
 | `grep -rh sec > list.txt `|							#38 one line command: find lines with 'sec' in the files, copy and past these lines into a new file |
