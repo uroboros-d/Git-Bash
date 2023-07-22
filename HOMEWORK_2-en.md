@@ -35,16 +35,16 @@ HOMEWORK_2
 | `> ./inner_dir_1/tf_4.txt` ||
 | `find . -type f -name "*tf*"`	 |		#21 find files with 'tf' in their names |
 | `find . -type f -iname "*tf*"`	 |		#22 find files with 'tf' in their names in any case |
-| `grep -r "sec" .` |					#23 find lines with 'sec' in files in the current directory |
-| `grep -ir 'sec' .` |				#24 find lines with 'sec' in files in the current directory in any case |
-| `grep -rw sec .` |					#25 find lines with 'sec' (only whole words) in files in the current directory |
-| `grep -irw "sec" .` |				#26 find lines with 'sec' (only whole words) in files in the current directory in any case |
-| `grep -r second .` |				#27 find lines with 'second' in files in the current directory |
-| `grep -ir 'second' .` |				#28 find lines with 'second' in files in the current directory in any case |
-| `grep -r second ./inner_dir_1`	 |		#29 find lines with 'second' in files in directories below the level |
-| `grep -lr "second" .` |				#30 find the list of files with 'second' in the current directory |
-| `grep -rv second .` |				#31 find lines in files that do not contain 'second' |
-| `grep -lrv second .` |				#32 find the list of files that do not contain 'second' |
+| `grep sec * 2>/dev/null` |					#23 find lines with 'sec' in files in the current directory |
+| `grep -i sec * 2>/dev/null` |				#24 find lines with 'sec' in files in the current directory in any case |
+| `grep -w sec * 2>/dev/null` |					#25 find lines with 'sec' (only whole words) in files in the current directory |
+| `grep -iw sec * 2>/dev/null` |				#26 find lines with 'sec' (only whole words) in files in the current directory in any case |
+| `grep second * 2>/dev/null` |				#27 find lines with 'second' in files in the current directory |
+| `grep -i second * 2>/dev/null` |				#28 find lines with 'second' in files in the current directory in any case |
+| `grep -r second`	 |		#29 find lines with 'second' in files in directories below the level |
+| `grep -l second * 2>/dev/null` |				#30 find the list of files with 'second' in the current directory |
+| `grep -rv second` |				#31 find lines in files that do not contain 'second' |
+| `grep -rL second` |				#32 find the list of files that do not contain 'second' |
 | `tail -n 4 ../poem.txt \| less`	 |		#33 print last 4 lines of any text file |
 | `head -n 4 ../poem.txt \| less`	 |		#34 print first 4 lines of any text file |
 | `mkdir dir ; echo "Hello" > dir/text.txt`	 |	#35 one line command: create a directory and a file with any content |
