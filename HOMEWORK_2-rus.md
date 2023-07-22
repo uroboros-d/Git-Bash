@@ -11,7 +11,7 @@ HOMEWORK_2
 | `-the first 1`	| |
 | `-the second 2`	| |
 | `-the third 3`	| |
-| `cd ./inner_dir_1`	|				#7 Зайти в папку inner_dir_1 |
+| `cd inner_dir_1`	|				#7 Зайти в папку inner_dir_1 |
 | `cat > tf_3.txt`	|					#8 Через cat сделать текстовый файл tf_3.txt  c любыми строками  |
 | `-line 1`	| |
 | `-line 2`	| |
