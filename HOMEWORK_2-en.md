@@ -51,7 +51,6 @@ HOMEWORK_2
 | `mkdir sec_mv \| grep -rl sec \| xargs mv -t ./sec_mv` |	#36 one line command: move files with 'sec' to another directory |
 | `mkdir sec_cp \| grep -rl sec \| xargs cp -t ./sec_cp` |	#37 one line command: copy files with 'sec' to another directory |
 | `grep -rh sec > list.txt `|							#38 one line command: find lines with 'sec' in the files, copy and past these lines into a new file |
-| `grep -r sec \| awk -F: '{print $2}\n' \| xargs > list.txt`	 | |
 | `grep -rl sec \| xargs rm`		 |		#39 one line command: delete files with 'sec' |
 | `echo 'Good job!'`		 |		#40 print the string 'Good job!' |
 
